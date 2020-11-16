@@ -14,9 +14,9 @@ function setup(){
   }
 }
 
-var y=2001;
-var m=6;
-var d=25;
+var y=2019;
+var m=7;
+var d=13;
 console.log(y+"年"+m+"月"+d+"日は"+dayOfWeekAsString(dayOfWeek(y, m, d))+"曜日です" );
 console.log(dayOfWeek(y, m, d));
 
@@ -35,7 +35,7 @@ function daysInYear(y){
 
 function dayOfWeek(y, m, d){
   let count=0, n=0, yans=0, mans=0, mtotal=0;
-  n=y-1995;
+  n=y-1984;
   yans=n*365;
   pm=m-1;
   while(pm>0){
