@@ -9,9 +9,11 @@ function setup(){
 function kobeCity(x, y, size){
   push();
   noFill();
+  stroke(22,131,46)
   strokeWeight(size * 0.25);
   strokeCap(SQUARE);
   arc(x + size * 0.25, y, size, size, QUARTER_PI * 3, QUARTER_PI * 3 + PI);
+  arc(x + size * -0.25, y, size, size, QUARTER_PI * -3, QUARTER_PI * -3 + PI);
   // BLANK[1]
   pop();
 }
